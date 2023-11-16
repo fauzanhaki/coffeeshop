@@ -326,7 +326,7 @@ body {
 /* product section */
 .products .row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 1.5rem;
   margin-top: 4rem;
 }
@@ -365,7 +365,7 @@ body {
 }
 
 .products .product-image img {
-  height: 25rem;
+  height: 20rem;
 }
 
 .products .product-icons h3 {
@@ -501,6 +501,7 @@ footer .credit a {
   padding: 1.2rem;
   border: 1px solid #666;
   width: 80%;
+  height: 52%;
   animation: animateModal 0.5s;
 }
 
@@ -682,6 +683,10 @@ footer .credit a {
 
   .modal-content {
     flex-wrap: wrap;
+  }
+
+  .modal-container {
+    height: auto;
   }
 }
 
