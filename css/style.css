@@ -98,7 +98,7 @@ body {
   align-items: center;
   transform: scaleY(0);
   transform-origin: top;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .navbar .search-form.active {
@@ -130,7 +130,7 @@ body {
   padding: 0 1.5rem;
   color: var(--bg);
   background-color: #fff;
-  transition: .3s linear;
+  transition: 0.3s linear;
 }
 
 .shopping-cart.active {
@@ -154,7 +154,7 @@ body {
 
 .shopping-cart h3 {
   font-size: 1.6rem;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 
 .shopping-cart .item-price {
@@ -340,14 +340,14 @@ body {
 .products .product-icons {
   display: flex;
   justify-content: center;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
 .products .product-icons a {
   width: 4rem;
   height: 4rem;
   color: #fff;
-  margin: .3rem;
+  margin: 0.3rem;
   border: 1px solid #666;
   border-radius: 50%;
   display: flex;
@@ -374,7 +374,7 @@ body {
 
 .products .product-stars {
   font-size: 1.7rem;
-  padding: .8rem;
+  padding: 0.8rem;
   color: var(--primary);
 }
 
@@ -441,37 +441,37 @@ body {
 
 /* footer */
 footer {
-   background-color: var(--primary);
-   text-align: center;
-   padding: 1rem 0 3rem;
-   margin-top: 3rem;
+  background-color: var(--primary);
+  text-align: center;
+  padding: 1rem 0 3rem;
+  margin-top: 3rem;
 }
 
 footer .socials {
-   padding: 1rem 0;
+  padding: 1rem 0;
 }
 
 footer .socials a {
-   color: #fff;
-   margin: 1rem;
+  color: #fff;
+  margin: 1rem;
 }
 
 footer .socials a:hover,
 footer .links a:hover {
-   color: var(--bg);
+  color: var(--bg);
 }
 
-footer .links  {
-   margin-bottom: 1.4rem;
+footer .links {
+  margin-bottom: 1.4rem;
 }
 
 footer .links a {
-   color: #fff;
-   padding: 0.7rem 1rem;
+  color: #fff;
+  padding: 0.7rem 1rem;
 }
 
 footer .credit {
-   font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 footer .credit a {
@@ -595,14 +595,14 @@ footer .credit a {
 
 /* media query */
 /* laptop */
-@media (max-width: 1366px) {
+@media screen and (max-width: 1366px) {
   html {
     font-size: 75%;
   }
 }
 
 /* tab */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   html {
     font-size: 62.5%;
   }
@@ -674,11 +674,11 @@ footer .credit a {
   }
 
   .contact .row .map {
-   height: 25rem;
+    height: 25rem;
   }
 
   .contact .row form {
-   padding-top: 0;
+    padding-top: 0;
   }
 
   .modal-content {
@@ -691,8 +691,8 @@ footer .credit a {
 }
 
 /* mobile */
-@media (max-width: 450px) {
-  html {
+@media screen and (max-width: 450px) {
+  body {
     font-size: 55%;
   }
 }
